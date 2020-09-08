@@ -1,10 +1,11 @@
 {
-  "name": "ft-components",
+  "name": "@zadewu/ft-components",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "./dist/ft-components.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name ft-components ./src/main.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
